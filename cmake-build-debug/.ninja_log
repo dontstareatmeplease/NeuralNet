@@ -1,0 +1,5 @@
+# ninja log v5
+1	300	1725503326474170781	CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.o	5871a3ad77b0fa72
+0	354	1725503326529009714	CMakeFiles/NeuralNet_Training.dir/main.cpp.o	ae927f8db7753e0a
+0	358	1725503326532233435	CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.o	e0023daf023e124e
+358	385	1725503326560928761	NeuralNet_Training	217cf06166e20550
