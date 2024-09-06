@@ -29,7 +29,7 @@ void setup() {
 }
 
 int main() {
-    std::cout << sigmoid(0);
+    std::cout << sigmoid(0) << '\n';
     importData();
     //setup();
 

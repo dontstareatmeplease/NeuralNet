@@ -1,0 +1,359 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.29.6/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/scripts/buildsystems/vcpkg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.29.6/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.29.6/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Darwin.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/mongocxx/mongocxx-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/mongocxx/mongocxx-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/mongoc-1.0/mongoc-1.0-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/mongoc-1.0/mongoc-1.0-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bson-1.0/bson-1.0-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bson-1.0/bson-1.0-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bson-1.0/bson-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bson-1.0/bson_static-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bson-1.0/bson_static-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bson-1.0/bson_static-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/unofficial-utf8proc/unofficial-utf8proc-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/unofficial-utf8proc/unofficial-utf8proc-config-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/unofficial-utf8proc/unofficial-utf8proc-config-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/mongoc-1.0/mongoc-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/mongoc-1.0/mongoc-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/mongoc-1.0/mongoc-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bsoncxx/bsoncxx-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bsoncxx/bsoncxx-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bson-1.0/bson-1.0-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bson-1.0/bson-1.0-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bson-1.0/bson-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bson-1.0/bson_static-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bsoncxx/bsoncxx_targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bsoncxx/bsoncxx_targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bsoncxx/bsoncxx_targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/mongocxx/mongocxx_targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/mongocxx/mongocxx_targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/mongocxx/mongocxx_targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bsoncxx/bsoncxx-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bsoncxx/bsoncxx-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/Users/kevinliang/vcpkg/installed/arm64-osx/share/bsoncxx/bsoncxx_targets.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/Users/kevinliang/CLionProjects/NeuralNet_Training/cmake-build-debug",
+		"source" : "/Users/kevinliang/CLionProjects/NeuralNet_Training"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

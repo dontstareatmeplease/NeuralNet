@@ -1,19 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/kevinliang/CLionProjects/NeuralNet_Training -B /Users/kevinliang/CLionProjects/NeuralNet_Training/cmake-build-debug
-CMake Error at CMakeLists.txt:8 (find_package):
-  By not providing "Findmongocxx.cmake" in CMAKE_MODULE_PATH this project has
-  asked CMake to find a package configuration file provided by "mongocxx",
-  but CMake did not find one.
-
-  Could not find a package configuration file provided by "mongocxx" with any
-  of the following names:
-
-    mongocxxConfig.cmake
-    mongocxx-config.cmake
-
-  Add the installation prefix of "mongocxx" to CMAKE_PREFIX_PATH or set
-  "mongocxx_DIR" to a directory containing one of the above files.  If
-  "mongocxx" provides a separate development package or SDK, be sure it has
-  been installed.
-
-
--- Configuring incomplete, errors occurred!
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/kevinliang/CLionProjects/NeuralNet_Training/cmake-build-debug
