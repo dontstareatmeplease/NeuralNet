@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "NeuralNet_Training::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-NeuralNet_Training-Debug-47fe88cd2675eaa77aae.json",
+					"jsonFile" : "target-NeuralNet_Training-Debug-d0f891c1f0ca1e9c55a2.json",
 					"name" : "NeuralNet_Training",
 					"projectIndex" : 0
 				}
@@ -55,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 7
 	}
 }

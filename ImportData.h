@@ -1,8 +1,20 @@
-//
-// Created by Kevin Liang on 2024-09-04.
-//
+//fetches data from MongoDB
 
-#ifndef NEURALNET_TRAINING_IMPORTDATA_H
-#define NEURALNET_TRAINING_IMPORTDATA_H
+#ifndef IMPORTDATA_H
+#define IMPORTDATA_H
+//todo: install mongocxx
 
-#endif //NEURALNET_TRAINING_IMPORTDATA_H
+//functioned called from main, will call all other functions
+void importData();
+
+void startDbConnection();
+
+//create mdspans for weights, biases, and values
+void createContainers();
+
+void fetchWeights();
+
+void fetchBiases();
+
+void endDbConnection();
+#endif //IMPORTDATA_H
