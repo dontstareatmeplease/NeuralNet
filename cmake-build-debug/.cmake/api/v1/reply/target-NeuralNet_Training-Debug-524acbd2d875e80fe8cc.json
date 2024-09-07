@@ -40,7 +40,7 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 23,
+				"line" : 24,
 				"parent" : 0
 			},
 			{
@@ -91,7 +91,8 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4
 			]
 		}
 	],
@@ -172,7 +173,8 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4
 			]
 		}
 	],
@@ -200,6 +202,12 @@
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
 			"path" : "GlobalVariables.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Private.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

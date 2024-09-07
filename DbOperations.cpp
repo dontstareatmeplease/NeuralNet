@@ -1,5 +1,6 @@
 #include "DbOperations.h"
 #include "GlobalVariables.h"
+#include "Private.h"
 #include <iostream>
 
 //for MongoDB
@@ -25,7 +26,7 @@ void importData() {
     try {
         //connecting to mongodb
         instance inst{};
-        uri uri("mongodb+srv://kevin:hurricane@firstproject.m9dq4lf.mongodb.net/?retryWrites=true&w=majority&appName=FirstProject");
+        uri uri(Private::dbUri);
         client client(uri);
         database db = client["NeuralNet"];
         pingConnection(db);

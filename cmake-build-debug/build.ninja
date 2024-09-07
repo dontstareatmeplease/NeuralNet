@@ -77,6 +77,13 @@ build CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.o: CXX_COMPILER__Neu
   OBJECT_DIR = CMakeFiles/NeuralNet_Training.dir
   OBJECT_FILE_DIR = CMakeFiles/NeuralNet_Training.dir
 
+build CMakeFiles/NeuralNet_Training.dir/Private.cpp.o: CXX_COMPILER__NeuralNet_Training_unscanned_Debug /Users/kevinliang/CLionProjects/NeuralNet_Training/Private.cpp || cmake_object_order_depends_target_NeuralNet_Training
+  DEP_FILE = CMakeFiles/NeuralNet_Training.dir/Private.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/kevinliang/vcpkg/installed/arm64-osx/include/bsoncxx/v_noabi -I/Users/kevinliang/vcpkg/installed/arm64-osx/include/mongocxx/v_noabi
+  OBJECT_DIR = CMakeFiles/NeuralNet_Training.dir
+  OBJECT_FILE_DIR = CMakeFiles/NeuralNet_Training.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target NeuralNet_Training
@@ -85,7 +92,7 @@ build CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.o: CXX_COMPILER__Neu
 #############################################
 # Link the executable NeuralNet_Training
 
-build NeuralNet_Training: CXX_EXECUTABLE_LINKER__NeuralNet_Training_Debug CMakeFiles/NeuralNet_Training.dir/main.cpp.o CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.o CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.o CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.o | /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libbsoncxx-static.a /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libmongocxx-static.a /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libbson-static-1.0.a /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libmongoc-static-1.0.a /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libutf8proc.a
+build NeuralNet_Training: CXX_EXECUTABLE_LINKER__NeuralNet_Training_Debug CMakeFiles/NeuralNet_Training.dir/main.cpp.o CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.o CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.o CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.o CMakeFiles/NeuralNet_Training.dir/Private.cpp.o | /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libbsoncxx-static.a /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libmongocxx-static.a /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libbson-static-1.0.a /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libmongoc-static-1.0.a /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libutf8proc.a
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
   LINK_LIBRARIES = /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libbsoncxx-static.a  /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libmongocxx-static.a  /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libbson-static-1.0.a  /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libmongoc-static-1.0.a  -framework CoreFoundation  -framework Security  -lz  -lresolv  /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libutf8proc.a
   OBJECT_DIR = CMakeFiles/NeuralNet_Training.dir
