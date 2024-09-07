@@ -7,14 +7,7 @@
 //functioned called from main, will call all other functions
 void importData();
 
-void startDbConnection();
-
-//create mdspans for weights, biases, and values
-void createContainers();
-
 void fetchWeights();
 
 void fetchBiases();
-
-void endDbConnection();
 #endif //IMPORTDATA_H

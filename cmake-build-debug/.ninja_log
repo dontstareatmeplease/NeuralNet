@@ -1,8 +1,8 @@
 # ninja log v6
-6	42	1725599916669165536	NeuralNet_Training	90a40e6c20d36c56
-6	645	1725599416133762505	CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.o	2597f3b5cd7f1794
-6	298	1725599404937991058	CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.o	1cdc094b0ccd7629
-6	299	1725599404937857642	CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.o	f6dd2eeb64e460fc
-3	62	1725600543951766673	build.ninja	924df8ce29934a13
-6	438	1725600506911740842	CMakeFiles/NeuralNet_Training.dir/main.cpp.o	c608482eb74b8ebb
-24	65	1725600545340673808	NeuralNet_Training	90a40e6c20d36c56
+753	845	1725667426559581959	NeuralNet_Training	90a40e6c20d36c56
+10	753	1725667425816753813	CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.o	2597f3b5cd7f1794
+3	460	1725666478030424557	CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.o	1cdc094b0ccd7629
+3	461	1725666478030254390	CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.o	f6dd2eeb64e460fc
+3	62	1725667525565938674	build.ninja	924df8ce29934a13
+3	464	1725666478029834848	CMakeFiles/NeuralNet_Training.dir/main.cpp.o	c608482eb74b8ebb
+6	48	1725667527301759992	NeuralNet_Training	90a40e6c20d36c56
