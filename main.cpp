@@ -10,28 +10,20 @@
 
 - weights tensor (layers-1 * max layer size * max prev layer size) 2*4*4
 - bias matrix (layers-1 * max layer size) 2*4
-- values matrix (4*3)
+- values matrix (3*4)
  */
 
 #include <iostream>
-#include "Neuron.h"
 #include "Sigmoid.h"
-#include "ImportData.h"
+#include "DbOperations.h"
+#include "GlobalVariables.h"
+#include "eigen-3.4.0/Eigen/Dense"
 
 
-//todo: import library for matrix algebra
 //todo: import library for plotting graphs
-using Layer = std::vector<Neuron>;
-
-//sets up neural network
-void setup() {
-
-}
 
 int main() {
-    std::cout << sigmoid(0) << '\n';
     importData();
-    //setup();
 
     //exportData();
     return 0;

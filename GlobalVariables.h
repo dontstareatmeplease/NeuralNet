@@ -1,10 +1,18 @@
 #ifndef NEURALNET_TRAINING_GLOBALVARIABLES_H
 #define NEURALNET_TRAINING_GLOBALVARIABLES_H
 #include <vector>
-using namespace std;
+#include "eigen-3.4.0/Eigen/Dense"
+#include "eigen-3.4.0/unsupported/Eigen/CXX11/Tensor"
+
+using Eigen::MatrixXd;
+using Eigen::Tensor;
+
 namespace Global {
-    array<double, 2*4*4> g_weights {};
-    array<double, 2*4> g_biases{};
-    array<double, 3*4> g_activations{};
+    extern int layers;
+    extern int maxLayerSize;
+
+    extern MatrixXd biases;
+    extern MatrixXd activations;
+    extern Tensor<double, 3> weights;
 }
 #endif //NEURALNET_TRAINING_GLOBALVARIABLES_H

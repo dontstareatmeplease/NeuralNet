@@ -14,9 +14,9 @@ find_package(mongocxx REQUIRED)
 find_package(bsoncxx REQUIRED)
 
 add_executable(NeuralNet_Training main.cpp
-        Neuron.cpp
         Sigmoid.cpp
-        ImportData.cpp)
+        DbOperations.cpp
+        GlobalVariables.cpp)
 
 #target_link_libraries(NeuralNet_Training ${MONGOCXX_LIBRARIES} ${BSONCXX_LIBRARIES})
 
