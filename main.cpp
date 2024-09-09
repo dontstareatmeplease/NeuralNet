@@ -18,13 +18,17 @@
 #include "DbOperations.h"
 #include "GlobalVariables.h"
 #include "eigen-3.4.0/Eigen/Dense"
+#include "Training/MakeTrainingSample.h"
 
 
 //todo: import library for plotting graphs
 
 int main() {
-    importData();
-
+    //importData();
+    Eigen::VectorXd sample = getTrainingSample();
+    std::cout << sample << '\n';
+    Eigen::VectorXd result = getExpectedResult(sample);
+    std::cout << result;
     //exportData();
     return 0;
 }

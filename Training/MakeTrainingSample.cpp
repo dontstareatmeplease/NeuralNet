@@ -1,6 +1,7 @@
 #include "MakeTrainingSample.h"
 #include "../eigen-3.4.0/Eigen/Dense"
 #include <random>
+#include <iostream>
 
 Eigen::VectorXd getTrainingSample() {
     Eigen::VectorXd sample(4);
@@ -21,12 +22,11 @@ Eigen::VectorXd getExpectedResult(Eigen::VectorXd sample) {
     double max = 0;
     int maxIndex;
     for (int i = 0; i < result.size(); ++i) {
-        if (result[i] > max) {
-            max = result[i];
+        if (sample[i] > max) {
+            max = sample[i];
             maxIndex = i;
         }
     }
     result[maxIndex] = 1;
-
     return result;
 }

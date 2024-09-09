@@ -10,10 +10,20 @@
 #find_package(bsoncxx REQUIRED)
 #
 #add_executable(NeuralNet_Training main.cpp
-#        Sigmoid.cpp
+#        Training/Normalization.h
+#        Training/Normalization.cpp
+#        DbOperations.h
 #        DbOperations.cpp
+#        GlobalVariables.h
 #        GlobalVariables.cpp
-#        Private.cpp)
+#        Private.h
+#        Private.cpp
+#        Training/ForwardPropagation.cpp
+#        Training/ForwardPropagation.h
+#        Training/MakeTrainingSample.cpp
+#        Training/MakeTrainingSample.h
+#        Training/BackPropagation.cpp
+#        Training/BackPropagation.h)
 #
 #target_link_libraries(NeuralNet_Training PRIVATE mongocxx_shared bsoncxx_shared)
 
@@ -44,8 +54,6 @@ add_executable(NeuralNet_Training main.cpp
         Training/MakeTrainingSample.h
         Training/BackPropagation.cpp
         Training/BackPropagation.h)
-
-#target_link_libraries(NeuralNet_Training ${MONGOCXX_LIBRARIES} ${BSONCXX_LIBRARIES})
 
 target_link_libraries(NeuralNet_Training
         /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libbsoncxx-static.a
