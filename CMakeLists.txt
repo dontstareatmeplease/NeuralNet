@@ -1,23 +1,49 @@
+#cmake_minimum_required(VERSION 3.26)
+#project(NeuralNet_Training)
+#
+#set(CMAKE_CXX_STANDARD 20)
+#
+#include_directories("/opt/homebrew/opt/mongo-cxx-driver/include/mongocxx/v_noabi")
+#include_directories("/opt/homebrew/opt/mongo-cxx-driver/include/bsoncxx/v_noabi")
+#
+#find_package(mongocxx REQUIRED)
+#find_package(bsoncxx REQUIRED)
+#
+#add_executable(NeuralNet_Training main.cpp
+#        Sigmoid.cpp
+#        DbOperations.cpp
+#        GlobalVariables.cpp
+#        Private.cpp)
+#
+#target_link_libraries(NeuralNet_Training PRIVATE mongocxx_shared bsoncxx_shared)
+
 cmake_minimum_required(VERSION 3.26)
 project(NeuralNet_Training)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-# Add the include directories for bsoncxx and mongocxx
 include_directories("/Users/kevinliang/vcpkg/installed/arm64-osx/include/bsoncxx/v_noabi")
 include_directories("/Users/kevinliang/vcpkg/installed/arm64-osx/include/mongocxx/v_noabi")
 
-
-# Find MongoDB C++ driver packages
 find_package(mongocxx REQUIRED)
 find_package(bsoncxx REQUIRED)
 
 add_executable(NeuralNet_Training main.cpp
-        Sigmoid.cpp
+        Training/Normalization.h
+        Training/Normalization.cpp
+        DbOperations.h
         DbOperations.cpp
+        GlobalVariables.h
         GlobalVariables.cpp
-        Private.cpp)
+        Private.h
+        Private.cpp
+        Training/ForwardPropagation.cpp
+        Training/ForwardPropagation.h
+        Training/MakeTrainingSample.cpp
+        Training/MakeTrainingSample.h
+        Training/BackPropagation.cpp
+        Training/BackPropagation.h)
 
 #target_link_libraries(NeuralNet_Training ${MONGOCXX_LIBRARIES} ${BSONCXX_LIBRARIES})
 

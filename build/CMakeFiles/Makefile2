@@ -28,9 +28,6 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -84,12 +81,12 @@ clean: CMakeFiles/NeuralNet_Training.dir/clean
 CMakeFiles/NeuralNet_Training.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kevinliang/CLionProjects/NeuralNet_Training/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target NeuralNet_Training"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/kevinliang/CLionProjects/NeuralNet_Training/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target NeuralNet_Training"
 .PHONY : CMakeFiles/NeuralNet_Training.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/NeuralNet_Training.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kevinliang/CLionProjects/NeuralNet_Training/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kevinliang/CLionProjects/NeuralNet_Training/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/NeuralNet_Training.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kevinliang/CLionProjects/NeuralNet_Training/build/CMakeFiles 0
 .PHONY : CMakeFiles/NeuralNet_Training.dir/rule

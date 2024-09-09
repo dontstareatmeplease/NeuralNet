@@ -10,6 +10,7 @@ using Eigen::Tensor;
 namespace Global {
     extern int layers;
     extern int maxLayerSize;
+    extern std::array<int, 3> layerSizes;
 
     extern MatrixXd biases;
     extern MatrixXd activations;

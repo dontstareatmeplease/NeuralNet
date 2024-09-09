@@ -27,9 +27,6 @@
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -86,24 +83,10 @@ CMakeFiles/NeuralNet_Training.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuralNet_Training.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kevinliang/CLionProjects/NeuralNet_Training/main.cpp -o CMakeFiles/NeuralNet_Training.dir/main.cpp.s
 
-CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.o: CMakeFiles/NeuralNet_Training.dir/flags.make
-CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.o: /Users/kevinliang/CLionProjects/NeuralNet_Training/Neuron.cpp
-CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.o: CMakeFiles/NeuralNet_Training.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kevinliang/CLionProjects/NeuralNet_Training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.o -MF CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.o.d -o CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.o -c /Users/kevinliang/CLionProjects/NeuralNet_Training/Neuron.cpp
-
-CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kevinliang/CLionProjects/NeuralNet_Training/Neuron.cpp > CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.i
-
-CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kevinliang/CLionProjects/NeuralNet_Training/Neuron.cpp -o CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.s
-
 CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.o: CMakeFiles/NeuralNet_Training.dir/flags.make
 CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.o: /Users/kevinliang/CLionProjects/NeuralNet_Training/Sigmoid.cpp
 CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.o: CMakeFiles/NeuralNet_Training.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kevinliang/CLionProjects/NeuralNet_Training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kevinliang/CLionProjects/NeuralNet_Training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.o -MF CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.o.d -o CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.o -c /Users/kevinliang/CLionProjects/NeuralNet_Training/Sigmoid.cpp
 
 CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.i: cmake_force
@@ -114,37 +97,67 @@ CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kevinliang/CLionProjects/NeuralNet_Training/Sigmoid.cpp -o CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.s
 
-CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.o: CMakeFiles/NeuralNet_Training.dir/flags.make
-CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.o: /Users/kevinliang/CLionProjects/NeuralNet_Training/ImportData.cpp
-CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.o: CMakeFiles/NeuralNet_Training.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kevinliang/CLionProjects/NeuralNet_Training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.o -MF CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.o.d -o CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.o -c /Users/kevinliang/CLionProjects/NeuralNet_Training/ImportData.cpp
+CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.o: CMakeFiles/NeuralNet_Training.dir/flags.make
+CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.o: /Users/kevinliang/CLionProjects/NeuralNet_Training/DbOperations.cpp
+CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.o: CMakeFiles/NeuralNet_Training.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kevinliang/CLionProjects/NeuralNet_Training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.o -MF CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.o.d -o CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.o -c /Users/kevinliang/CLionProjects/NeuralNet_Training/DbOperations.cpp
 
-CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kevinliang/CLionProjects/NeuralNet_Training/ImportData.cpp > CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.i
+CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kevinliang/CLionProjects/NeuralNet_Training/DbOperations.cpp > CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.i
 
-CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kevinliang/CLionProjects/NeuralNet_Training/ImportData.cpp -o CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.s
+CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kevinliang/CLionProjects/NeuralNet_Training/DbOperations.cpp -o CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.s
+
+CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.o: CMakeFiles/NeuralNet_Training.dir/flags.make
+CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.o: /Users/kevinliang/CLionProjects/NeuralNet_Training/GlobalVariables.cpp
+CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.o: CMakeFiles/NeuralNet_Training.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kevinliang/CLionProjects/NeuralNet_Training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.o -MF CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.o.d -o CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.o -c /Users/kevinliang/CLionProjects/NeuralNet_Training/GlobalVariables.cpp
+
+CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kevinliang/CLionProjects/NeuralNet_Training/GlobalVariables.cpp > CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.i
+
+CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kevinliang/CLionProjects/NeuralNet_Training/GlobalVariables.cpp -o CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.s
+
+CMakeFiles/NeuralNet_Training.dir/Private.cpp.o: CMakeFiles/NeuralNet_Training.dir/flags.make
+CMakeFiles/NeuralNet_Training.dir/Private.cpp.o: /Users/kevinliang/CLionProjects/NeuralNet_Training/Private.cpp
+CMakeFiles/NeuralNet_Training.dir/Private.cpp.o: CMakeFiles/NeuralNet_Training.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kevinliang/CLionProjects/NeuralNet_Training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NeuralNet_Training.dir/Private.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/NeuralNet_Training.dir/Private.cpp.o -MF CMakeFiles/NeuralNet_Training.dir/Private.cpp.o.d -o CMakeFiles/NeuralNet_Training.dir/Private.cpp.o -c /Users/kevinliang/CLionProjects/NeuralNet_Training/Private.cpp
+
+CMakeFiles/NeuralNet_Training.dir/Private.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/NeuralNet_Training.dir/Private.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kevinliang/CLionProjects/NeuralNet_Training/Private.cpp > CMakeFiles/NeuralNet_Training.dir/Private.cpp.i
+
+CMakeFiles/NeuralNet_Training.dir/Private.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/NeuralNet_Training.dir/Private.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kevinliang/CLionProjects/NeuralNet_Training/Private.cpp -o CMakeFiles/NeuralNet_Training.dir/Private.cpp.s
 
 # Object files for target NeuralNet_Training
 NeuralNet_Training_OBJECTS = \
 "CMakeFiles/NeuralNet_Training.dir/main.cpp.o" \
-"CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.o" \
 "CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.o" \
-"CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.o"
+"CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.o" \
+"CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.o" \
+"CMakeFiles/NeuralNet_Training.dir/Private.cpp.o"
 
 # External object files for target NeuralNet_Training
 NeuralNet_Training_EXTERNAL_OBJECTS =
 
 NeuralNet_Training: CMakeFiles/NeuralNet_Training.dir/main.cpp.o
-NeuralNet_Training: CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.o
 NeuralNet_Training: CMakeFiles/NeuralNet_Training.dir/Sigmoid.cpp.o
-NeuralNet_Training: CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.o
+NeuralNet_Training: CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.o
+NeuralNet_Training: CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.o
+NeuralNet_Training: CMakeFiles/NeuralNet_Training.dir/Private.cpp.o
 NeuralNet_Training: CMakeFiles/NeuralNet_Training.dir/build.make
 NeuralNet_Training: CMakeFiles/NeuralNet_Training.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kevinliang/CLionProjects/NeuralNet_Training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable NeuralNet_Training"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kevinliang/CLionProjects/NeuralNet_Training/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable NeuralNet_Training"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NeuralNet_Training.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

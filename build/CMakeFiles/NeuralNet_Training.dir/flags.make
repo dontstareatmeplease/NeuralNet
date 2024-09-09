@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/kevinliang/vcpkg/installed/arm64-osx/include
+CXX_INCLUDES = -I/opt/homebrew/opt/mongo-cxx-driver/include/mongocxx/v_noabi -I/opt/homebrew/opt/mongo-cxx-driver/include/bsoncxx/v_noabi -I/opt/homebrew/Cellar/mongo-cxx-driver/3.10.2/include/bsoncxx/v_noabi/bsoncxx/third_party/mnmlstc/core
 
 CXX_FLAGSarm64 = -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
 

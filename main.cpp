@@ -14,7 +14,7 @@
  */
 
 #include <iostream>
-#include "Sigmoid.h"
+#include "Training/Normalization.h"
 #include "DbOperations.h"
 #include "GlobalVariables.h"
 #include "eigen-3.4.0/Eigen/Dense"

@@ -8,6 +8,7 @@ using Eigen::Tensor;
 namespace Global {
     int layers = 3;
     int maxLayerSize = 4;
+    std::array<int, 3> layerSizes{4, 3, 4};
 
     MatrixXd biases(layers-1, maxLayerSize);
     MatrixXd activations(layers, maxLayerSize);

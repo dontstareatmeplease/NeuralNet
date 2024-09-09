@@ -31,9 +31,6 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -132,53 +129,77 @@ NeuralNet_Training/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/build
 .PHONY : NeuralNet_Training/fast
 
-ImportData.o: ImportData.cpp.o
-.PHONY : ImportData.o
+DbOperations.o: DbOperations.cpp.o
+.PHONY : DbOperations.o
 
 # target to build an object file
-ImportData.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.o
-.PHONY : ImportData.cpp.o
+DbOperations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.o
+.PHONY : DbOperations.cpp.o
 
-ImportData.i: ImportData.cpp.i
-.PHONY : ImportData.i
+DbOperations.i: DbOperations.cpp.i
+.PHONY : DbOperations.i
 
 # target to preprocess a source file
-ImportData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.i
-.PHONY : ImportData.cpp.i
+DbOperations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.i
+.PHONY : DbOperations.cpp.i
 
-ImportData.s: ImportData.cpp.s
-.PHONY : ImportData.s
+DbOperations.s: DbOperations.cpp.s
+.PHONY : DbOperations.s
 
 # target to generate assembly for a file
-ImportData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/ImportData.cpp.s
-.PHONY : ImportData.cpp.s
+DbOperations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/DbOperations.cpp.s
+.PHONY : DbOperations.cpp.s
 
-Neuron.o: Neuron.cpp.o
-.PHONY : Neuron.o
+GlobalVariables.o: GlobalVariables.cpp.o
+.PHONY : GlobalVariables.o
 
 # target to build an object file
-Neuron.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.o
-.PHONY : Neuron.cpp.o
+GlobalVariables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.o
+.PHONY : GlobalVariables.cpp.o
 
-Neuron.i: Neuron.cpp.i
-.PHONY : Neuron.i
+GlobalVariables.i: GlobalVariables.cpp.i
+.PHONY : GlobalVariables.i
 
 # target to preprocess a source file
-Neuron.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.i
-.PHONY : Neuron.cpp.i
+GlobalVariables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.i
+.PHONY : GlobalVariables.cpp.i
 
-Neuron.s: Neuron.cpp.s
-.PHONY : Neuron.s
+GlobalVariables.s: GlobalVariables.cpp.s
+.PHONY : GlobalVariables.s
 
 # target to generate assembly for a file
-Neuron.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/Neuron.cpp.s
-.PHONY : Neuron.cpp.s
+GlobalVariables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/GlobalVariables.cpp.s
+.PHONY : GlobalVariables.cpp.s
+
+Private.o: Private.cpp.o
+.PHONY : Private.o
+
+# target to build an object file
+Private.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/Private.cpp.o
+.PHONY : Private.cpp.o
+
+Private.i: Private.cpp.i
+.PHONY : Private.i
+
+# target to preprocess a source file
+Private.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/Private.cpp.i
+.PHONY : Private.cpp.i
+
+Private.s: Private.cpp.s
+.PHONY : Private.s
+
+# target to generate assembly for a file
+Private.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeuralNet_Training.dir/build.make CMakeFiles/NeuralNet_Training.dir/Private.cpp.s
+.PHONY : Private.cpp.s
 
 Sigmoid.o: Sigmoid.cpp.o
 .PHONY : Sigmoid.o
@@ -237,12 +258,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... NeuralNet_Training"
-	@echo "... ImportData.o"
-	@echo "... ImportData.i"
-	@echo "... ImportData.s"
-	@echo "... Neuron.o"
-	@echo "... Neuron.i"
-	@echo "... Neuron.s"
+	@echo "... DbOperations.o"
+	@echo "... DbOperations.i"
+	@echo "... DbOperations.s"
+	@echo "... GlobalVariables.o"
+	@echo "... GlobalVariables.i"
+	@echo "... GlobalVariables.s"
+	@echo "... Private.o"
+	@echo "... Private.i"
+	@echo "... Private.s"
 	@echo "... Sigmoid.o"
 	@echo "... Sigmoid.i"
 	@echo "... Sigmoid.s"
