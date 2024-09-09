@@ -1,6 +1,6 @@
 #include "GlobalVariables.h"
-#include "eigen-3.4.0/Eigen/Dense"
-#include "eigen-3.4.0/unsupported/Eigen/CXX11/Tensor"
+#include "Eigen/Dense"
+#include "unsupported/Eigen/CXX11/Tensor"
 
 using Eigen::MatrixXd;
 using Eigen::Tensor;

@@ -8,6 +8,7 @@
 #
 #find_package(mongocxx REQUIRED)
 #find_package(bsoncxx REQUIRED)
+#find_package(Eigen3 3.4 REQUIRED HINTS /opt/homebrew/opt/eigen)
 #
 #add_executable(NeuralNet_Training main.cpp
 #        Training/Normalization.h
@@ -26,6 +27,7 @@
 #        Training/BackPropagation.h)
 #
 #target_link_libraries(NeuralNet_Training PRIVATE mongocxx_shared bsoncxx_shared)
+#target_link_libraries(NeuralNet_Training Eigen3::Eigen)
 
 cmake_minimum_required(VERSION 3.26)
 project(NeuralNet_Training)
@@ -33,11 +35,12 @@ project(NeuralNet_Training)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-include_directories("/Users/kevinliang/vcpkg/installed/arm64-osx/include/bsoncxx/v_noabi")
-include_directories("/Users/kevinliang/vcpkg/installed/arm64-osx/include/mongocxx/v_noabi")
-
 find_package(mongocxx REQUIRED)
 find_package(bsoncxx REQUIRED)
+find_package(Eigen3 3.4 REQUIRED HINTS /opt/homebrew/opt/eigen)
+
+include_directories("/Users/kevinliang/vcpkg/installed/arm64-osx/include/bsoncxx/v_noabi")
+include_directories("/Users/kevinliang/vcpkg/installed/arm64-osx/include/mongocxx/v_noabi")
 
 add_executable(NeuralNet_Training main.cpp
         Training/Normalization.h
@@ -55,6 +58,7 @@ add_executable(NeuralNet_Training main.cpp
         Training/BackPropagation.cpp
         Training/BackPropagation.h)
 
+target_link_libraries(NeuralNet_Training Eigen3::Eigen)
 target_link_libraries(NeuralNet_Training
         /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libbsoncxx-static.a
         /Users/kevinliang/vcpkg/installed/arm64-osx/lib/libmongocxx-static.a

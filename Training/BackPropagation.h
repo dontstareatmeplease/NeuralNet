@@ -1,7 +1,3 @@
-//
-// Created by Kevin Liang on 2024-09-09.
-//
-
 #ifndef NEURALNET_TRAINING_BACKPROPAGATION_H
 #define NEURALNET_TRAINING_BACKPROPAGATION_H
 
