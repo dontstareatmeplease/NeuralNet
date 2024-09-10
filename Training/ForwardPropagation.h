@@ -1,9 +1,14 @@
 #ifndef FORWARDPROPAGATION_H
 #define FORWARDPROPAGATION_H
-#include "../GlobalVariables.h"
 #include <iostream>
+#include <Eigen/Dense>
+#include <unsupported/Eigen/CXX11/Tensor>
 
-void forwardPropagate() {
 
-}
+void forwardPropagation(Eigen::MatrixXd& activations);
+
+void calculateCosts();
+
+Eigen::MatrixXd extractLayer(const Eigen::Tensor<double, 3>& tensor, int layerIndex);
+
 #endif //FORWARDPROPAGATION_H

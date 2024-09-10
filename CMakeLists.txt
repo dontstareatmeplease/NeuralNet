@@ -26,8 +26,10 @@
 #        Training/BackPropagation.cpp
 #        Training/BackPropagation.h)
 #
+#target_link_libraries(NeuralNet_Training PRIVATE Eigen3::Eigen)
 #target_link_libraries(NeuralNet_Training PRIVATE mongocxx_shared bsoncxx_shared)
-#target_link_libraries(NeuralNet_Training Eigen3::Eigen)
+
+
 
 cmake_minimum_required(VERSION 3.26)
 project(NeuralNet_Training)
