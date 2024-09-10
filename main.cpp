@@ -52,7 +52,7 @@ void debug() {
 
 int main() {
     //importData();
-    debug();
+    //debug();
     MatrixXd activations(Global::layerCount, Global::maxLayerSize);
     activations.row(0) = getTrainingSample();
     Eigen::VectorXd result = getExpectedResult(activations.row(0));

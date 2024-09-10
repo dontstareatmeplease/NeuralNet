@@ -44,20 +44,21 @@ find_package(Eigen3 3.4 REQUIRED HINTS /opt/homebrew/opt/eigen)
 include_directories("/Users/kevinliang/vcpkg/installed/arm64-osx/include/bsoncxx/v_noabi")
 include_directories("/Users/kevinliang/vcpkg/installed/arm64-osx/include/mongocxx/v_noabi")
 
-add_executable(NeuralNet_Training main.cpp
-        Training/Normalization.h
+add_executable(NeuralNet_Training
+        main.cpp
         Training/Normalization.cpp
-        DbOperations.h
         DbOperations.cpp
-        GlobalVariables.h
         GlobalVariables.cpp
-        Private.h
         Private.cpp
         Training/ForwardPropagation.cpp
-        Training/ForwardPropagation.h
         Training/MakeTrainingSample.cpp
-        Training/MakeTrainingSample.h
         Training/BackPropagation.cpp
+        Training/Normalization.h
+        DbOperations.h
+        GlobalVariables.h
+        Private.h
+        Training/ForwardPropagation.h
+        Training/MakeTrainingSample.h
         Training/BackPropagation.h)
 
 target_link_libraries(NeuralNet_Training Eigen3::Eigen)

@@ -28,6 +28,7 @@ void forwardPropagation(MatrixXd& activations) {
     }
 }
 
-void calculateCosts() {
-
+Eigen::VectorXd calculateLoss(Eigen::VectorXd& actual, Eigen::VectorXd& expected) {
+    //todo: make both column or row vectors
+    return (actual-expected).array().square();
 }

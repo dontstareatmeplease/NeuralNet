@@ -5,9 +5,9 @@
 #include <unsupported/Eigen/CXX11/Tensor>
 
 
-void forwardPropagation(Eigen::MatrixXd& activations);
+void forwardPropagation(Eigen::VectorXd& actual, Eigen::VectorXd& expected);
 
-void calculateCosts();
+Eigen::VectorXd calculateLoss(Eigen::VectorXd& actual, Eigen::VectorXd expected);
 
 Eigen::MatrixXd extractLayer(const Eigen::Tensor<double, 3>& tensor, int layerIndex);
 
