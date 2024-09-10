@@ -26,6 +26,10 @@ void debug() {
     Eigen::VectorXd result = getExpectedResult(activations.row(0));
 
     Global::weights.setRandom();
+    for (int i = 0; i < 4; ++i) {
+        Global::weights(1, 3, i) = 0;
+        Global::weights(2, i, 3) = 0;
+    }
     for (int i = 0; i < Global::weights.dimension(0); ++i) {
         for (int j = 0; j < Global::weights.dimension(1); ++j) {
             for (int k = 0; k < Global::weights.dimension(2); ++k) {

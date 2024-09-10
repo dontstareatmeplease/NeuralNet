@@ -48,3 +48,7 @@
 1175	1217	1725943008427673022	NeuralNet_Training	9b0cce319e6757c7
 10	1050	1725943146386531167	CMakeFiles/NeuralNet_Training.dir/Training/ForwardPropagation.cpp.o	5d503c8728895e68
 1050	1091	1725943147427350158	NeuralNet_Training	9b0cce319e6757c7
+13	1885	1725992446136560226	CMakeFiles/NeuralNet_Training.dir/main.cpp.o	462cbe782c44e6d5
+1885	2029	1725992448009118714	NeuralNet_Training	9b0cce319e6757c7
+12	1556	1725992756181697939	CMakeFiles/NeuralNet_Training.dir/Training/ForwardPropagation.cpp.o	5d503c8728895e68
+1556	1617	1725992757726094315	NeuralNet_Training	9b0cce319e6757c7
