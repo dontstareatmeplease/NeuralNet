@@ -6,6 +6,8 @@ using Eigen::MatrixXd;
 using Eigen::Tensor;
 
 namespace Global {
+    double learningRate = 0.01;
+
     int layerCount = 3;
     int maxLayerSize = 4;
     std::array<int, 3> layerSizes{4, 3, 4};

@@ -26,9 +26,8 @@ void forwardPropagation(MatrixXd& activations) {
         activationVector = activationVector.unaryExpr([](double x) { return sigmoid(x); });
         activations.row(layerIndex+1) = activationVector;
     }
-}
 
-Eigen::VectorXd calculateLoss(Eigen::VectorXd& actual, Eigen::VectorXd& expected) {
-    //todo: make both column or row vectors
-    return (actual-expected).array().square();
+    //un-sigmoid last entry of layer 2 to account for 3-neuron structure
+    //very brute force. I know. This won't float
+    activations(1, 3) = 0;
 }

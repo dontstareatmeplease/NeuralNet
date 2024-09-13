@@ -1,0 +1,5 @@
+1: take an object-oriented approach --> make layers an object
+    - this non object-oriented implementation is very messy, very unreadable
+    - different sized layers' parameters are put into the same sized matrix --> not maintenance-friendly (If I were
+      to come back to this project a couple days later. I wouldn't understand anything
+2: provide inline documentation

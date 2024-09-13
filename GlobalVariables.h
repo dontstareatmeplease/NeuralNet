@@ -8,6 +8,8 @@ using Eigen::MatrixXd;
 using Eigen::Tensor;
 
 namespace Global {
+    extern double learningRate;
+
     extern int layerCount;
     extern int maxLayerSize;
     extern std::array<int, 3> layerSizes;

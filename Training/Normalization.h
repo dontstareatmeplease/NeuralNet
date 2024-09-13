@@ -3,4 +3,7 @@
 #include <iostream>
 
 double sigmoid(double input);
+
+double diffSigmoid(double sigmoid);
+
 #endif //SIGMOID_H
